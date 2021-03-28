@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogPoopDetectionFunctions", "DogPoopDetectionFunctions\DogPoopDetectionFunctions.csproj", "{F9557293-EB18-45AC-9D02-C959C31E3F59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{E9EE4550-84E8-44A7-BBD4-78286887D269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogPoopCameraApp.Android", "DogPoopCameraApp\DogPoopCameraApp.Android\DogPoopCameraApp.Android.csproj", "{A9CEA707-16DE-4999-A428-F7B87B5053AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogPoopCameraApp", "DogPoopCameraApp\DogPoopCameraApp\DogPoopCameraApp.csproj", "{4AE684E5-974E-4975-86B3-9CA8077FAEC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configurations", "Configurations\Configurations.csproj", "{B503888B-AAFB-44CA-B806-09B8D70F576C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9557293-EB18-45AC-9D02-C959C31E3F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9557293-EB18-45AC-9D02-C959C31E3F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9557293-EB18-45AC-9D02-C959C31E3F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9557293-EB18-45AC-9D02-C959C31E3F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CEA707-16DE-4999-A428-F7B87B5053AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CEA707-16DE-4999-A428-F7B87B5053AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CEA707-16DE-4999-A428-F7B87B5053AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A9CEA707-16DE-4999-A428-F7B87B5053AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CEA707-16DE-4999-A428-F7B87B5053AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CEA707-16DE-4999-A428-F7B87B5053AD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4AE684E5-974E-4975-86B3-9CA8077FAEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE684E5-974E-4975-86B3-9CA8077FAEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE684E5-974E-4975-86B3-9CA8077FAEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE684E5-974E-4975-86B3-9CA8077FAEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B503888B-AAFB-44CA-B806-09B8D70F576C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B503888B-AAFB-44CA-B806-09B8D70F576C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B503888B-AAFB-44CA-B806-09B8D70F576C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B503888B-AAFB-44CA-B806-09B8D70F576C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9CEA707-16DE-4999-A428-F7B87B5053AD} = {E9EE4550-84E8-44A7-BBD4-78286887D269}
+		{4AE684E5-974E-4975-86B3-9CA8077FAEC4} = {E9EE4550-84E8-44A7-BBD4-78286887D269}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8671FC41-DCFA-4AB8-B21B-ACC749AF1FBE}
+	EndGlobalSection
+EndGlobal
